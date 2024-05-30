@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/triangleFragment">
+
+    <fragment
+        android:id="@+id/triangleFragment"
+        android:name="com.example.openglapp.TriangleFragment"
+        android:label="Triangle"
+        tools:layout="@layout/fragment_triangle" />
+
+    <fragment
+        android:id="@+id/cubeFragment"
+        android:name="com.example.openglapp.CubeFragment"
+        android:label="Cube"
+        tools:layout="@layout/fragment_cube" />
+
+    <fragment
+        android:id="@+id/planeFragment"
+        android:name="com.example.openglapp.PlaneFragment"
+        android:label="Plane"
+        tools:layout="@layout/fragment_plane" />
+</navigation>

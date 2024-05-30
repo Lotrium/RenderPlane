@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/triangleFragment"
+        android:icon="@drawable/ic_triangle"
+        android:title="Triangle" />
+    <item
+        android:id="@+id/cubeFragment"
+        android:icon="@drawable/ic_cube"
+        android:title="Cube" />
+    <item
+        android:id="@+id/planeFragment"
+        android:icon="@drawable/ic_plane"
+        android:title="Plane" />
+</menu>
